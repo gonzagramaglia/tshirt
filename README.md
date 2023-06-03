@@ -62,3 +62,9 @@ _Official website: https://www.framer.com/motion/_ (a production-ready motion li
 ```bash
 npm install three @react-three/fiber @react-three/drei maath valtio react-color framer-motion
 ```
+
+
+
+#### Project Structure (Starting Point):
+https://drive.google.com/drive/folders/166wA5NsMV_5D8NN7ujDDbPXC1X65vf2I
+
