@@ -27,7 +27,7 @@ function Home() {
                     </motion.header>
                     <motion.div className="home-content" {...headContainerAnimation} >
                         <motion.div {...headTextAnimation} >
-                            <h1 className="head-text" >
+                            <h1 className="head-text mt-6" >
                                 LET'S DO IT
                             </h1>
                         </motion.div>
@@ -45,7 +45,7 @@ function Home() {
                                 type="filled"
                                 title="Customize It"
                                 handleClick={ () => state.intro = false }
-                                customStyles= "w-fit px-4 py-2.5 mb-36 font-bold text-sm"
+                                customStyles= "w-fit px-4 py-2.5 mb-48 font-bold text-sm"
                             />
                         </motion.div>
                     </motion.div>
