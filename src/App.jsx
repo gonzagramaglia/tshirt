@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { FaGithub } from 'react-icons/fa';
-import Canvas from './canvas'
 import Customizer from './pages/Customizer';
 import Home  from './pages/Home';
 
