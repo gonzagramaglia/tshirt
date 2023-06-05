@@ -25,7 +25,6 @@ function App() {
       </nav>
       <main className='app transition-all ease-in pt-28'>
         <Home />
-        <Canvas />
         <Customizer />
       </main>
     </>
