@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import { FaGithub } from 'react-icons/fa';
 import Customizer from './pages/Customizer';
 import Home  from './pages/Home';
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
