@@ -9,9 +9,9 @@ during the **[Build and Deploy an AI-Powered 3D Website Using React](https://www
 
 
 
-📌 **LIVE DEMO [UNDER CONSTRUCTION]: _https://product.gonza.gr/_**
+📌 **LIVE DEMO: _https://product.gonza.gr/_**
 
-[![Product Demo Preview](https://i.postimg.cc/3JCZXcrT/under-construction.png)](https://i.postimg.cc/3JCZXcrT/under-construction.png)
+[![Product Demo Preview](https://i.postimg.cc/0NHDBJM4/demo-product.png)](https://i.postimg.cc/0NHDBJM4/demo-product.png)
 
 <br><br><br>
 
