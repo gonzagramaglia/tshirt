@@ -26,7 +26,7 @@ function App() {
           <FaGithub size={23} style={{ color: '#a9a6c3' }} />
         </a>
       </nav>
-      <main className='app transition-all ease-in'>
+      <main className='app transition-all ease-in pt-28'>
         <Home />
         <Canvas />
         <Customizer />
