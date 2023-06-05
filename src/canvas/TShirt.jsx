@@ -22,7 +22,7 @@ const TShirt = () => {
         <group
             key={stateString}
         >
-            {!snap.intro && <mesh
+            <mesh
                 castShadow
                 geometry={nodes.T_Shirt_male.geometry}
                 material={materials.lambert1}
@@ -49,7 +49,7 @@ const TShirt = () => {
                         depthWrite={false}
                     />
                 )}
-            </mesh>}
+            </mesh>
         </group>
     )
 }
