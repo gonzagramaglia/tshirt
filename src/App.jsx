@@ -1,6 +1,7 @@
 import { FaGithub } from 'react-icons/fa';
 import Customizer from './pages/Customizer';
 import Home  from './pages/Home';
+import CanvasModel from './canvas';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       </nav>
       <main className='app transition-all ease-in pt-28 bg-gray-100'>
         <Home />
+        <CanvasModel />
         <Customizer />
       </main>
     </>
