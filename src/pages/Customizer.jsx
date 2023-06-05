@@ -56,10 +56,10 @@ function Customizer() {
     
     const handleActiveFilterTab = (tabName) => {
         switch (tabName) {
-            case "logoShirt":
+            case "logoTShirt":
                 state.isLogoTexture = !activeFilterTab[tabName];
                 break;
-            case "stylishShirt":
+            case "stylishTShirt":
                 state.isFullTexture = !activeFilterTab[tabName];
                 break;
             default:
@@ -67,6 +67,15 @@ function Customizer() {
                 state.isFullTexture = false;
                 break;
         }
+
+        // after setting the state, activeFilterTab is updated
+
+        setActiveFilterTab( (prevState) => {
+            return {
+                ...prevState,
+                [tabName]: !prevState[tabName]
+            }
+        } )
     }
 
     const readFile = (type) => {
@@ -124,8 +133,8 @@ function Customizer() {
                                     key={tab.name}
                                     tab={tab}
                                     isFilterTab
-                                    isActiveTab=""
-                                    handleClick={ () => {} }
+                                    isActiveTab={activeFilterTab[tab.name]}
+                                    handleClick={ () => handleActiveFilterTab(tab.name) }
                                 />
                             ))}
                         
