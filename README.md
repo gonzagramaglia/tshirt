@@ -9,13 +9,13 @@ during the **[Build and Deploy an AI-Powered 3D Website Using React](https://www
 
 
 
-📌 **LIVE DEMO: _https://product.gonza.gr/_**
+📌 **LIVE DEMO: _https://tshirt.gonza.gr/_**
 
-[![Product Demo Preview](https://i.postimg.cc/0NHDBJM4/demo-product.png)](https://i.postimg.cc/0NHDBJM4/demo-product.png)
+[![T-Shirt Demo Preview](https://i.postimg.cc/VNnVftB6/tshirt-demo.png)](https://i.postimg.cc/VNnVftB6/tshirt-demo.png)
 
 <br><br><br>
 
-#### Product folder
+#### T-Shirt folder
 Create project folder, open it in VSCode and open terminal
 
 #### Project Setup:
